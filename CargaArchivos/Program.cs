@@ -18,21 +18,23 @@ namespace CargaArchivos
         static MySql.Data.MySqlClient.MySqlConnection conn;
        // MySql.Data.MySqlClient.MySqlConnection conn;
        // string myConnectionString;
+       
         static string myConnectionString;
         [STAThread]
         static void Main(string[] args)
         {
-           
+
             //Application.EnableVisualStyles();
             //Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new DatosCargasArchivos());
 
-                     // Form Forma = new DatosCargasArchivos();
-           
+            // Form Forma = new DatosCargasArchivos();
+
             //  Precios();
-             //Aportes();
-             //  DemandaEnergia();
-              AportesFaltantes();
+            //Aportes();
+            //  DemandaEnergia();
+            // AportesFaltantes();
+            MessageBox.Show("Cambio");
             //DemandaPotencia();
         }
 
